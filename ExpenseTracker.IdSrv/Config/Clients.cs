@@ -19,7 +19,9 @@ namespace ExpenseTracker.IdSrv.Config
                     ClientId = "mvc",
                     Flow = Flows.Hybrid,
                     RequireConsent = true,
+                    AllowAccessToAllScopes = true,
 
+                    // redirect = URI of MVC app
                     RedirectUris = new List<string>()
                     {
                         ExpenseTrackerConstants.ExpenseTrackerClient

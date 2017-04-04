@@ -145,12 +145,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Certificates\DevRoot.cer" />
-    <Content Include="Certificates\idsrv3test.cer" />
-    <Content Include="Certificates\idsrv3test.pfx" />
-    <Content Include="bin\DevRoot.cer" />
-    <Content Include="bin\idsrv3test.cer" />
-    <Content Include="bin\idsrv3test.pfx" />
+    <Content Include="Certificates\iulitab.com.pfx" />
+    <Content Include="Certificates\pfx.passwd" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Properties\PublishProfiles\expensetrackeridsrv.pubxml" />
     <None Include="Properties\PublishProfiles\identity.iulitab.com.pubxml" />
@@ -184,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
